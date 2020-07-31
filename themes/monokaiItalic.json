@@ -1,0 +1,174 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "name": "monokai italic",
+  "include": "./monokai.json",
+  "tokenColors": [
+    {
+      "name": "Normalize font style of certain Components",
+      "scope": [
+        "meta.property-list.css meta.property-value.css variable.other.less",
+        "meta.property-list.scss variable.scss",
+        "meta.property-list.sass variable.sass",
+        "keyword.operator.logical",
+        "keyword.operator.arithmetic",
+        "keyword.operator.bitwise",
+        "keyword.operator.increment",
+        "keyword.operator.ternary",
+        "keyword.operator.comparison",
+        "keyword.operator.assignment",
+        "keyword.operator.operator",
+        "keyword.operator.or.regexp",
+        "punctuation.section.embedded.js",
+        "punctuation.definintion.string",
+        "text.html.markdown",
+        "punctuation"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Bold Italicsify certain tokens",
+      "scope": [
+        "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.import.js variable.other",
+        "meta.export.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.export.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.export.js variable.other",
+        "entity.name.function",
+        "entity.name.function",
+        "support.type.primitive",
+        "entity.other.attribute-name",
+        "entity.name.tag.custom",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "variable.assignment.coffee",
+        "support.function.basic_functions",
+        "keyword.operator.type.annotation",
+        "punctuation.section.embedded",
+        "assignment.coffee",
+        "entity.name.type.ts",
+        "support.constant.math",
+        "meta.object-literal.key",
+        "meta.structure.dictionary.value",
+        "meta.object.member variable.other.readwrite",
+        "meta.definition.property variable.object.property",
+        "meta.attribute",
+        "meta.function-call",
+        "meta.function-call entity.name.function.member",
+        "italic",
+        "quote",
+        "storage",
+        "language",
+        "type .function",
+        "type.function",
+        "storage.type",
+        "meta.parameter",
+        "meta.parameters",
+        "this",
+        "string",
+        "parameter",
+        "variable.parameter",
+        "type.var",
+        "comment"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Italicsify certain tokens",
+      "scope": [
+        "keyword",
+        "modifier",
+        "storage.modifier",
+        "keyword.control",
+        "variable.language.this",
+        "var.this,variable.language.this.js",
+        "variable.language.this.ts",
+        "variable.language.this.jsx",
+        "variable.language.this.tsx",
+        "meta.decorator",
+        "meta.decorator variable.other.readwrite"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Un-italicsify certain tokens",
+      "scope": [
+        "keyword.other.double-colon.haskell",
+        "keyword.other.arrow.haskell",
+        "keyword.other.big-arrow.haskell"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Bold certain tokens",
+      "scope": [
+        "support.type.property-name.json",
+        "meta.class entity.other.inherited-class",
+        "meta.arrow",
+        "meta.arrow storage.type.function.arrow",
+        "namespace.open entity.name.section",
+        "namespace",
+        "meta.tag entity.name.tag"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Underline certain tokens",
+      "scope": [
+        "binding variable",
+        "meta.definition.variable variable.other.constant",
+        "meta.var.expr storage.type"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Bold Underline certain tokens",
+      "scope": [
+        "meta.interface entity.name.type.interface",
+        "meta.class entity.name.type.class",
+        "entity.name.section",
+        "entity.name.function.member",
+        "binding.fsharp variable.fsharp"
+      ],
+      "settings": {
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Italic Underline certain tokens",
+      "scope": [
+        "storage.type",
+        "binding.fsharp keyword.fsharp"
+      ],
+      "settings": {
+        "fontStyle": "italic underline"
+      }
+    },
+    {
+      "name": "Bold Italic Underline certain tokens",
+      "scope": [
+        "meta.class meta.definition.property variable.object.property",
+        "meta.definition entity.name.function",
+        "meta.function entity.name.function"
+      ],
+      "settings": {
+        "fontStyle": "bold italic underline"
+      }
+    }
+  ],
+  "uuid": "32bd64fa-d60a-4858-a5fc-5164cc49a2b8"
+}

@@ -1,0 +1,111 @@
+{
+	"name": "italicthemes",
+	"displayName": "Italic Themes",
+	"description": "Each theme has a modified version to use with the Operator Mono font/Italic. Includes semantic highlighting",
+	"version": "1.0.1",
+	"publisher": "beauvankirk",
+	"license": "Apache-2.0",
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#0b1015",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/beauvankirk/daily/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/beauvankirk/daily.git"
+	},
+	"bugs": {
+		"url": "https://github.com/beauvankirk/daily/issues"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ƒ - Darcula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula.json"
+			},
+			{
+				"label": "ƒ - Darcula - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darculaItalic.json"
+			},
+			{
+				"label": "ƒ - Material",
+				"uiTheme": "vs-dark",
+				"path": "./themes/material.json"
+			},
+			{
+				"label": "ƒ - Material - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/materialItalic.json"
+			},
+			{
+				"label": "ƒ - Oceanic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oceanic.json"
+			},
+			{
+				"label": "ƒ - Oceanic - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oceanicItalic.json"
+			},
+			{
+				"label": "ƒ - One Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one.json"
+			},
+			{
+				"label": "ƒ - One Dark - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oneItalic.json"
+			},
+			{
+				"label": "ƒ - Gruvbox",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gruvbox.json"
+			},
+			{
+				"label": "ƒ - Gruvbox - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gruvboxItalic.json"
+			},
+			{
+				"label": "ƒ - Slime",
+				"uiTheme": "vs-dark",
+				"path": "./themes/slime.json"
+			},
+			{
+				"label": "ƒ - Slime - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/slimeItalic.json"
+			},
+			{
+				"label": "ƒ - AYU",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ayu.json"
+			},
+			{
+				"label": "ƒ - AYU - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ayuItalic.json"
+			},
+			{
+				"label": "ƒ - Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai.json"
+			},
+			{
+				"label": "ƒ - Monokai - Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokaiItalic.json"
+			}
+		]
+	}
+}
